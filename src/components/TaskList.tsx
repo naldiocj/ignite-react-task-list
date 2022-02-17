@@ -22,6 +22,8 @@ export function TaskList() {
         title: newTaskTitle,
         isComplete: false
       }])
+
+      setNewTaskTitle('')
     }
   }
 
